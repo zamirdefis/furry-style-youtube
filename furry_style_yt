@@ -1,0 +1,291 @@
+/* Root */
+
+    html[dark]:root {
+        --gray: rgb(170, 170, 170);
+        --main: white;
+    }
+    :root {
+        --blue: #3ea6ff;
+        --red: #ff516f;
+        --gray: rgb(96, 96, 96);
+        --main: black;
+        --paw_filled: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiPjx0aXRsZT5wYXdfY2xhc3NpY19maWxsZWQ8L3RpdGxlPjxwYXRoIGQ9Ik03MDQuNDksNDkxLjE4QTI4OCwyODgsMCwwLDAsNDk5LDQwNi42OGMtMTU5LjE4LjU1LTI4OC42OSwxMzEuNzgtMjg4LjY5LDI5Mi41M3Y0MC45NWExNjIuODksMTYyLjg5LDAsMCwwLDI0MC4yLDE0My4zNiwxMDQsMTA0LDAsMCwxLDk5LDBBMTYyLjg5LDE2Mi44OSwwLDAsMCw3ODkuNzEsNzQwLjE2VjY5Ni4zOUEyODcuOCwyODcuOCwwLDAsMCw3MDQuNDksNDkxLjE4WiIvPjxwYXRoIGQ9Ik0xOTAuOTIsMzM0LjA2bC0xNS42OC0xMS4zOUExMTAuNTIsMTEwLjUyLDAsMCwwLDIxLDM0Ny4wOWgwYTExMC41MywxMTAuNTMsMCwwLDAsMjQuNDMsMTU0LjJsMTUuNjgsMTEuMzlBMTEwLjM5LDExMC4zOSwwLDAsMCwxOTAuOTIsMzM0LjA2WiIvPjxwYXRoIGQ9Ik05NzksMzQ5LjcyYTExMC41MywxMTAuNTMsMCwwLDAtMTU0LjItMjQuNDJsLTE1LjY4LDExLjM5QTExMC4zOSwxMTAuMzksMCwwLDAsOTM4Ljg2LDUxNS4zMWwxNS42OC0xMS4zOUExMTAuNTMsMTEwLjUzLDAsMCwwLDk3OSwzNDkuNzJaIi8+PHBhdGggZD0iTTQ2Mi4xNSwyMjIuMTVsLTE1Ljk0LTQ5LjA2YTExMC40LDExMC40LDAsMCwwLTIxMCw2OC4yM2wxNS45NCw0OS4wNWExMTAuMzcsMTEwLjM3LDAsMCwwLDEzOS4xMSw3MC44OGgwYTExMC4zOSwxMTAuMzksMCwwLDAsNzAuODgtMTM5LjFaIi8+PHBhdGggZD0iTTY5Mi44OSwxMDMuMjJhMTEwLjUxLDExMC41MSwwLDAsMC0xMzkuMSw3MC44N2wtMTUuOTQsNDkuMDZhMTEwLjM5LDExMC4zOSwwLDEsMCwyMTAsNjguMjJsMTUuOTQtNDkuMDVBMTEwLjUyLDExMC41MiwwLDAsMCw2OTIuODksMTAzLjIyWiIvPjwvc3ZnPg==");
+--paw_lineart: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAwIDEwMDAiPjx0aXRsZT5wYXdfY2xhc3NpY19saW5lZDwvdGl0bGU+PHBhdGggZD0iTTQ5OS43NCw0NDguNjhhMjQ3LjcyLDI0Ny43MiwwLDAsMSwyNDgsMjQ3LjcxdjQzLjc3QTEyMC41OSwxMjAuNTksMCwwLDEsNTY5LjQ0LDg0Ni41NWExNDYsMTQ2LDAsMCwwLTEzOC44OCwwQTEyMC41OSwxMjAuNTksMCwwLDEsMjUyLjI5LDc0MC4xNlY2OTkuMjFjMC0xMzcuNjcsMTEwLjczLTI1MC4wNiwyNDYuODEtMjUwLjUzaC42NG0wLTQySDQ5OWMtMTU5LjE4LjU1LTI4OC42OSwxMzEuNzgtMjg4LjY5LDI5Mi41M3Y0MC45NWExNjIuNTksMTYyLjU5LDAsMCwwLDI0MC4yLDE0My4zNiwxMDQsMTA0LDAsMCwxLDk5LDAsMTYyLjc1LDE2Mi43NSwwLDAsMCw3Ny4zOCwxOS43MmgwQTE2My4zNiwxNjMuMzYsMCwwLDAsNzg5LjcxLDc0MC4xNlY2OTYuMzlhMjg5LjczLDI4OS43MywwLDAsMC0yOTAtMjg5LjcxWiIvPjxwYXRoIGQ9Ik0xMTAuNSwzNDMuNjNhNjcuNzEsNjcuNzEsMCwwLDEsNDAuMDUsMTNMMTY2LjIzLDM2OGE2OC4zNSw2OC4zNSwwLDAsMS00MC4zNCwxMjMuNjgsNjcuNzQsNjcuNzQsMCwwLDEtNDAuMDYtMTNMNzAuMTUsNDY3LjMxYTY4LjQ4LDY4LjQ4LDAsMCwxLTE1LjQxLTk1LjE1bC4yOC0uMzhhNjcuNDEsNjcuNDEsMCwwLDEsMjQuNzMtMjAuOTUsNjkuNDUsNjkuNDUsMCwwLDEsMzAuNzUtNy4ybTAtNDJBMTEwLjM0LDExMC4zNCwwLDAsMCwyMSwzNDcuMDloMGExMTAuNTMsMTEwLjUzLDAsMCwwLDI0LjQzLDE1NC4ybDE1LjY4LDExLjM5QTExMC4zOSwxMTAuMzksMCwwLDAsMTkwLjkyLDMzNC4wNmwtMTUuNjgtMTEuMzlhMTA5Ljg0LDEwOS44NCwwLDAsMC02NC43NC0yMVoiLz48cGF0aCBkPSJNODg5LjUsMzQ2LjI1YTY4LjM3LDY4LjM3LDAsMCwxLDQwLjM1LDEyMy42OWwtMTUuNjgsMTEuMzlhNjcuNzMsNjcuNzMsMCwwLDEtNDAsMTMsNjguNzIsNjguNzIsMCwwLDEtNTUuNDgtMjguMTUsNjguNTEsNjguNTEsMCwwLDEsMTUuMTMtOTUuNTNsMTUuNjgtMTEuMzlhNjcuNyw2Ny43LDAsMCwxLDQwLTEzbTAtNDJhMTA5Ljc2LDEwOS43NiwwLDAsMC02NC43NCwyMS4wNWwtMTUuNjgsMTEuMzlBMTEwLjM5LDExMC4zOSwwLDAsMCw5MzguODYsNTE1LjMxbDE1LjY4LTExLjM5YTExMC4zNywxMTAuMzcsMCwwLDAtNjUtMTk5LjY3WiIvPjxwYXRoIGQ9Ik0zNDEuMzMsMTM4Ljc2YTY4LjU3LDY4LjU3LDAsMCwxLDY0LjkzLDQ3LjMxbDE1Ljk0LDQ5LjA2YTY4LjM4LDY4LjM4LDAsMCwxLTQzLjYxLDg2LjA4bC0uMy4xYTY4LjI5LDY4LjI5LDAsMCwxLTIxLjA2LDMuMzUsNjkuMjUsNjkuMjUsMCwwLDEtMzkuOS0xMi44NSw2Ny42Myw2Ny42MywwLDAsMS0yNS4yMi0zNC40MWwtMTUuOTQtNDkuMDZhNjguNTUsNjguNTUsMCwwLDEsNjUuMTYtODkuNThtMC00MkExMTAuNDUsMTEwLjQ1LDAsMCwwLDIzNi4yMiwyNDEuMzJsMTUuOTQsNDkuMDVhMTEwLjM3LDExMC4zNywwLDAsMCwxMzkuMTEsNzAuODhoMGExMTAuMzksMTEwLjM5LDAsMCwwLDcwLjg4LTEzOS4xbC0xNS45NC00OS4wNkExMTAuNTcsMTEwLjU3LDAsMCwwLDM0MS4zMyw5Ni43NloiLz48cGF0aCBkPSJNNjU4Ljg2LDEzOS44YTY4LjQ0LDY4LjQ0LDAsMCwxLDY1LDg5LjU0bC0xNS45NCw0OWE2Ny42MSw2Ny42MSwwLDAsMS0yNS4yMiwzNC40Miw2OS4yNiw2OS4yNiwwLDAsMS0zOS45MSwxMi44NSw2OC40LDY4LjQsMCwwLDEtNjUtODkuNTNsMTUuOTQtNDkuMDZBNjcuNjYsNjcuNjYsMCwwLDEsNjE5LDE1Mi42NmE2OS4yNyw2OS4yNywwLDAsMSwzOS45MS0xMi44Nm0wLTQyYTExMC41OSwxMTAuNTksMCwwLDAtMTA1LjA3LDc2LjI5bC0xNS45NCw0OS4wNmExMTAuMzksMTEwLjM5LDAsMSwwLDIxMCw2OC4yMmwxNS45NC00OS4wNUExMTAuNDQsMTEwLjQ0LDAsMCwwLDY1OC44Niw5Ny44WiIvPjwvc3ZnPg==");
+    }
+    
+    /* Playlist/Filter Icon Fix */
+    .ytd-playlist-sidebar-primary-info-renderer yt-icon.ytd-toggle-button-renderer,
+    .ytd-search-sub-menu-renderer yt-icon.ytd-toggle-button-renderer,
+    .ytd-playlist-panel-renderer yt-icon.ytd-toggle-button-renderer,
+    .ytd-video-preview yt-icon.ytd-toggle-button-renderer,
+    .ytd-macro-markers-list-item-renderer yt-icon.ytd-toggle-button-renderer {
+        background-color: transparent !important;
+        -webkit-mask: none !important;
+        mask: none !important;
+        animation: none !important;
+        transform: none !important;
+    }
+    
+    /* Hide Normal Button */
+    ytd-menu-renderer:not(.ytd-playlist-sidebar-primary-info-renderer):not(.ytd-playlist-panel-renderer) ytd-toggle-button-renderer[is-icon-button] yt-icon.ytd-toggle-button-renderer svg,
+    ytd-search-sub-menu-renderer:not(.ytd-section-list-renderer) ytd-toggle-button-renderer[is-paper-button-with-icon] yt-icon.ytd-toggle-button-renderer svg,
+    ytd-video-preview:not(.ytd-rich-grid-renderer) ytd-toggle-button-renderer[is-paper-button-with-icon] yt-icon.ytd-toggle-button-renderer svg,
+    #dislike-button svg,
+    #like-button svg,
+    segmented-like-dislike-button-view-model svg
+    {display: none !important}
+    
+    ytd-toggle-button-renderer.force-icon-button a.ytd-toggle-button-renderer, a.yt-simple-endpoint.ytd-toggle-button-renderer
+    {outline: none}
+    
+    /* Lined */
+    ytd-toggle-button-renderer[is-icon-button] yt-icon.ytd-toggle-button-renderer,
+    segmented-like-dislike-button-view-model yt-icon,
+    #like-button button yt-icon,
+    #dislike-button button yt-icon {
+        background-color: var(--main);
+        -webkit-mask: var(--paw_lineart) no-repeat 50% 50%;
+        mask: var(--paw_lineart) no-repeat 50% 50%;
+        -webkit-mask-size: contain;
+        mask-size: contain;
+        transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    /* Lined Like */
+    ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(1) yt-icon.ytd-toggle-button-renderer,
+    segmented-like-dislike-button-view-model like-button-view-model button[aria-pressed="true"] yt-icon,
+    #like-button button[aria-pressed="true"] yt-icon {
+        background-color: var(--blue);
+        -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
+        mask: var(--paw_filled) no-repeat 50% 50%;
+        transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    /* Lined Dislike*/
+    ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(2) yt-icon.ytd-toggle-button-renderer,
+    segmented-like-dislike-button-view-model dislike-button-view-model button[aria-pressed="true"] yt-icon,
+    #dislike-button button[aria-pressed="true"] yt-icon {
+        background-color: var(--red);
+        -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
+        mask: var(--paw_filled) no-repeat 50% 50%;
+        
+        transform: rotateX(-180deg);
+        transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    /* Paper */
+    #like-button[is-shorts] button yt-icon,
+    #dislike-button[is-shorts] button yt-icon {
+        background-color: var(--main);
+        -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
+        mask: var(--paw_filled) no-repeat 50% 50%;
+        -webkit-mask-size: contain;
+        mask-size: contain;
+        transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    /* Paper Like */
+    #like-button[is-shorts] button[aria-pressed="true"] yt-icon {
+        background-color: var(--blue);
+        
+        transform: none;
+        transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    /* Paper Dislike */
+    #dislike-button[is-shorts] button[aria-pressed="true"] yt-icon {
+        background-color: var(--red);
+        
+        transform: rotateX(-180deg);
+        transition: all .25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    
+        /* Lined-Hover Animation */
+    ytd-toggle-button-renderer[is-icon-button]:hover yt-icon.ytd-toggle-button-renderer,
+    ytd-toggle-button-renderer.style-default-active[is-icon-button]:hover yt-icon.ytd-toggle-button-renderer,
+    segmented-like-dislike-button-view-model ytd-toggle-button-renderer:hover yt-icon,
+    #like-button button:hover yt-icon,
+    #dislike-button button:hover yt-icon {
+        -webkit-mask: var(--paw_filled) no-repeat 50% 50%;
+        mask: var(--paw_filled) no-repeat 50% 50%;
+        transform: scale(1.25);
+    }
+    ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(1) yt-icon.ytd-toggle-button-renderer,
+    segmented-like-dislike-button-view-model like-button-view-model button[aria-pressed="true"] yt-icon
+        {animation: paw_up .5s cubic-bezier(0.165, 0.84, 0.44, 1)}
+
+    ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(1):hover yt-icon.ytd-toggle-button-renderer,
+    segmented-like-dislike-button-view-model like-button-view-model:hover button[aria-pressed="true"] yt-icon
+        {transform: translateY(-10px)}
+
+    ytd-toggle-button-renderer.style-default-active[is-icon-button]:nth-of-type(2):hover yt-icon.ytd-toggle-button-renderer,
+    segmented-like-dislike-button-view-model dislike-button-view-model:hover button[aria-pressed="true"] yt-icon
+        {transform: rotateX(-180deg) translateY(-10px)}
+    
+    /* Paper-Hover Animation */
+    ytd-toggle-button-renderer.style-default-active[is-paper-button]:nth-of-type(1) yt-icon.ytd-toggle-button-renderer
+        {animation: paw_up .5s cubic-bezier(0.165, 0.84, 0.44, 1)}
+    
+    ytd-toggle-button-renderer[is-paper-button-with-icon]:hover yt-icon.ytd-toggle-button-renderer
+        {transform: scale(1.25)}
+    
+    /* Disable Button Animations On Comments */
+    #like-button.ytd-comment-action-buttons-renderer.style-default-active[is-icon-button] yt-icon.ytd-toggle-button-renderer,
+    #like-button button:hover yt-icon,
+    #dislike-button button:hover yt-icon {
+        animation: none !important;
+        transform: none !important;
+    }
+    #dislike-button.ytd-comment-action-buttons-renderer.style-default-active[is-icon-button] yt-icon.ytd-toggle-button-renderer,
+    #dislike-button button:hover yt-icon
+        {transform: rotateX(-180deg) !important}
+    
+    /* Keyframes */
+    @keyframes paw_up {
+      0% {transform: scale(1.25) translateY(0)}
+      50% {transform: scale(1) translateY(-10px)}
+      100% {transform: scale(inherit) translateY(inherit)}
+    }
+
+.ytp-scrubber-pull-indicator {
+  /* hollow knight slider */
+  background-color: #fff0 !important;
+  height: 35px !important;
+  width: 45px !important;
+  background-image: url(https://i.imgur.com/MiOjgkT.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 43px, 80px !important;
+  bottom: 18px !important;
+  left: -10px !important;
+  transform: rotate(0deg) !important;
+  transform: scale(-1.5, 1.5) !important;
+  border-radius: 30px !important;
+}
+
+.ytp-swatch-background-color {
+  /* sliderball */
+  background-color: #fd8afd !important;
+}
+
+.ytp-volume-slider-handle,
+.ytp-volume-slider-handle::after,
+.ytp-volume-slider-handle::before,
+.ytp-settings-menu .ytp-menuitem-toggle-checkbox,
+.ytp-autonav-toggle-button,
+.yt-spec-icon-badge-shape__badge,
+.iron-selected /* some menu selections */ {
+  /* some items bg */
+  background-color: #fd8afd !important;
+}
+
+#chat-messages.style-scope.yt-live-chat-renderer.iron-selected {
+  background-color: #0f0f0f !important;
+}
+
+.ytd-video-owner-renderer .yt-spec-button-shape-next--filled {
+  color: #fff !important;
+  background-color: #fd8afd !important;
+}
+
+.iron-selected .yt-chip-cloud-chip-renderer {
+  /* some menu selections */
+  color: #fff !important;
+}
+
+.ytd-thumbnail-overlay-resume-playback-renderer {
+  /* text and hyperlinks */
+  background-color: #fd8afd !important;
+}
+
+.yt-simple-endpoint {
+  /* text and hyperlinks */
+  color: #f775fc !important;
+}
+
+.yt-core-attributed-string__link,
+#owner-sub-count, 
+#channel-name,
+yt-formatted-string.ytd-channel-name .yt-simple-endpoint,
+.ytd-video-meta-block .inline-metadata-item:nth-child(3n){
+  /* text and hyperlinks */
+  color: #f7b3f5 !important;
+}
+
+.ytd-channel-name .yt-simple-endpoint,
+.ytd-comment-renderer,
+ytd-author-comment-badge-renderer .ytd-channel-name {
+  /* bug fix */
+  color: #fff !important;
+}
+
+.ytd-c4-tabbed-header-renderer .iron-selected {
+  background-color: #212129 !important;
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+} 
+
+/* logo */
+#logo-icon {
+  content: url("https://i.imgur.com/UgjASwd.gif") !important;
+  width: 70px !important;
+  height: 50px !important;
+  object-fit: cover !important;
+  transform: translateY(-22px) !important;
+}
+
+.ytd-topbar-logo-renderer {
+  transform: translateY(10px) !important;
+  color: #e68cf7 !important;
+}
+
+/* logo */
+ytd-topbar-logo-renderer {
+  width: 0% !important;
+}
+
+/* scrubber button */
+.html5-scrubber-button:hover, .ytp-scrubber-button:hover, .ytp-swatch-background-color, .ytp-swatch-background-color-secondary {
+   background: /*[[colour]]*/ !important;
+}
+/* progress bar */
+.html5-play-progress, .ytp-play-progress {
+   background: #fd8afd !important; 
+}
+.ytp-volume-slider-track, .ytp-volume-slider-handle:before {
+   background: #fd8afd !important;
+   z-index: -117;
+}
+.ytp-settings-button.ytp-hd-quality-badge::after, .ytp-settings-button.ytp-4k-quality-badge::after, .ytp-settings-button.ytp-5k-quality-badge::after, .ytp-settings-button.ytp-8k-quality-badge::after, .ytp-settings-button.ytp-3d-badge::after {
+   background-color: #fd8afd !important;
+}
+.ytp-swatch-color {
+   color: #fd8afd !important;
+}
+.ytp-menuitem[aria-checked="true"] .ytp-menuitem-toggle-checkbox {
+   background: #fd8afd !important;
+}
+.ytp-chrome-controls .ytp-button.ytp-youtube-button:hover:not([aria-disabled="true"]):not([disabled]) .ytp-svg-fill-logo-tube-lozenge {
+   fill: #fd8afd !important;
+}
+.ytp-cued-thumbnail-overlay:hover .ytp-large-play-button-bg, .ytp-large-play-button.ytp-touch-device .ytp-large-play-button-bg {
+   fill: #fd8afd !important;
+}
+.resume-playback-progress-bar {
+   background: #fd8afd !important;
+}
+.ytp-chrome-controls .ytp-button[aria-pressed]::after {
+   background-color: #fd8afd !important;
+}
+.yt-uix-checkbox-on-off input-extras2-disabled[type="checkbox"]:checked + label {
+   background-color: #fd8afd !important;
+}
+.video-extras-sparkbar-likes-extras2-disabled {
+   background-color: #fd8afd !important;
+}
+
+.YtThumbnailOverlayProgressBarHostWatchedProgressBarSegmentModern:nth-child(1) {
+   background: #fd8afd !important;
+}
+.style-scope > #dismissible #progress {
+  background: #fd8afd !important;
+}
